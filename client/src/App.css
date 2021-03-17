@@ -124,6 +124,10 @@ form button:hover {
   color: gray;
 }
 
+.contact p {
+  margin: 16px 8%;
+}
+
 form {
   display: flex;
   flex-direction: column;
@@ -160,5 +164,10 @@ form textarea {
 
   .project-group {
     flex-direction: column;
+  }
+
+  #projects img {
+    height: 30%;
+    width: 70%
   }
 }
