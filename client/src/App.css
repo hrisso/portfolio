@@ -1,5 +1,4 @@
 .App {
-  text-align: center;
   font-family: 'Roboto Slab', serif;
 }
 
@@ -10,7 +9,7 @@
   border-bottom: 2px solid black;
 }
 
-.nav h1{
+.nav h1 {
   margin-left: 20px;
 }
 
@@ -20,7 +19,7 @@
   align-items: center;
 }
 
-.nav-right p {
+.nav-right a {
   margin: 0px 20px;
 }
 
@@ -30,5 +29,19 @@
   background-size: cover;
   background-position: center;
   border-bottom: 2px solid black;
-  margin-bottom: 30px;
+}
+
+.about-me, 
+.projects, 
+.contact {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  border-bottom: 2px solid black;
+}
+
+.projects img {
+  height: 100px;
+  width: auto;
 }
