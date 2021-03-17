@@ -1,0 +1,12 @@
+.App {
+  text-align: center;
+}
+
+.background-image {
+  height: 500px;
+  background-image: url("./portfolio-background.jpg");
+  background-size: cover;
+  background-position: center;
+  border-bottom: 2px solid black;
+  margin-bottom: 30px;
+}
