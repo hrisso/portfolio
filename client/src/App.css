@@ -21,6 +21,12 @@
 
 .nav-right a {
   margin: 0px 20px;
+  text-decoration: none;
+  color: black;
+}
+
+.nav-right a:hover {
+  border-bottom: 1px solid black;
 }
 
 .background-image {
@@ -31,8 +37,8 @@
   border-bottom: 2px solid black;
 }
 
-.about-me, 
-.projects, 
+#about-me, 
+#projects, 
 .contact {
   display: flex;
   flex-direction: column;
@@ -41,7 +47,62 @@
   border-bottom: 2px solid black;
 }
 
-.projects img {
-  height: 100px;
-  width: auto;
+#projects img {
+  height: 150px;
+  width: 275px;
+  object-fit: cover;
+  border: 1px solid gray;
+}
+
+.project-group {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+}
+
+.project-tile {
+  width: 20vw;
+  height: 35vh;
+  text-align: center;
+  margin: 15px;
+  padding: 20px 10px;
+  border: 2px solid gray;
+  border-radius: 2px;
+}
+
+.project-tile a {
+  text-decoration: none;
+  color: black;
+}
+
+.project-tile:hover {
+  box-shadow: 5px 5px 8px black;
+  transition: all 0.2s;
+}
+
+.button {
+  background-color: gray;
+  border: 2px solid black;
+  border-radius: 2px;
+  margin: 30px;
+  padding: 10px;
+}
+
+.button a {
+  color: white;
+  text-decoration: none;
+}
+
+@media screen and (max-width:1380px) {
+  .project-tile {
+    height: auto;
+  }
+}
+
+@media screen and (max-width:579px) {
+  .nav {
+    flex-direction: column;
+  }
+
 }
