@@ -6,6 +6,9 @@ function App() {
     <div className="App">
       <Nav />
       <div className="background-image"></div>
+      <h2>About Me</h2>
+      <h2>Projects</h2>
+      <h2>Get In Touch</h2>
     </div>
   );
 }
