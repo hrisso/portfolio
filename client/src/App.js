@@ -12,7 +12,7 @@ function App() {
       <div className="background-image"></div>
       <div id="about-me">
         <h2>About Me</h2>
-        <p>Hi, I'm Heather. I’m a full-stack software engineer with a passion for solving complex problems and building high-quality software. With over 8yrs experience in the industry as a scrum master and agile coach, I’ve gained technical skills as well as collaboration skills along the way. I’ve always been passionate about software which inspired me to pursue software engineering as a career. I’m excited to bring my experience in agile software environments to a mission-driven organization that can foster my growth.</p>
+        <p>Hi, I'm Heather. I’m a full-stack software engineer based in Boston, MA with a passion for solving complex problems and building high-quality software. With over 8yrs experience in the industry as a scrum master and agile coach, I’ve gained technical skills as well as collaboration skills along the way. I’ve always been passionate about software which inspired me to pursue software engineering as a career. I’m excited to bring my experience in agile software environments to a mission-driven organization that can foster my growth.</p>
         <div className="button">
           <a href="https://www.linkedin.com/in/heatherrisso/" target="_blank" rel="noopener noreferrer">Learn More</a>
         </div>
@@ -55,12 +55,27 @@ function App() {
       </div>
       <div className="contact">
         <h2>Get In Touch</h2>
+        <p>Use the form below to contact me. I'm happy to hear from you!</p>
         <div className="contact-section">
-          <p>Boston, MA</p>
-          <a href="mailto:heather.risso@gmail.com"><p>heather.risso@gmail.com</p></a>
-          <p>978-505-1738</p>
-          <a href="https://github.com/hrisso" target="_blank" rel="noopener noreferrer"><p>Github</p></a>
-          <a href="https://www.linkedin.com/in/heatherrisso/" target="_blank" rel="noopener noreferrer"><p>LinkedIn</p></a>
+          <form action="mailto:heather.risso@gmail.com"
+            method="POST"
+            encType="multipart/form-data"
+            name="EmailForm"
+          >
+            <label>Name:</label>
+              <input
+                type="text"
+                size="19"
+                name="ContactName">
+              </input>
+            <label>Message: </label>
+              <textarea
+                name="ContactComment"
+                rows="6"
+                cols="20">
+              </textarea>
+              <button type="submit">Submit</button>
+            </form>
         </div>
       </div>
     </div>
