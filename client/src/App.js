@@ -31,7 +31,7 @@ function App() {
             <a href="https://volleyball-playbook.netlify.app" target="_blank" rel="noopener noreferrer">
               <img src={p2} alt="project 2" />
               <h3>Volleyball Playbook</h3>
-              <p>Volleyball web app with full CRUD using React and an Airtable backend</p>
+              <p>Volleyball coach's web app using React and an Airtable backend</p>
             </a>
           </div>
           <div className="project-tile">
