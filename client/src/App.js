@@ -28,7 +28,7 @@ function App() {
             </a>
           </div>
           <div className="project-tile">
-            <a href="https://modest-poincare-a94579.netlify.app/" target="_blank" rel="noopener noreferrer">
+            <a href="https://volleyball-playbook.netlify.app" target="_blank" rel="noopener noreferrer">
               <img src={p2} alt="project 2" />
               <h3>Volleyball Playbook</h3>
               <p>Volleyball web app with full CRUD using React and an Airtable backend</p>
